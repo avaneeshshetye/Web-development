@@ -1,0 +1,164 @@
+
+#container{
+width:1050px;
+/*height: 100px;*/
+/*border: 1px solid grey;*/
+margin: 0px auto;
+}
+
+#brand{
+    float: left;
+}
+
+#header{
+    height: 100px;
+    padding:10px 0;
+}
+
+ h1 a{
+    font-size: 50px;
+    font-weight: 100px;
+    color:red;
+    text-decoration: none;
+}
+
+#searchBox{
+    float: right;
+    background: linear-gradient(white,blue);
+    height: 50px;
+    width: 400px;
+    padding: 10px 10px 0px 10px ;
+    margin-top: 20px;
+    
+}
+
+.text{
+    float: left;
+    width: 200px;
+    font-size: 15px;
+    height: 20px;
+    padding: 5px;
+    color: orange;
+    
+}
+
+.submit{
+    float: right;
+    padding:5px;
+    font-weight:bold;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+ #menu ul li {
+    float: left;
+    padding:0px 30px;
+    height: 30px;
+    border-right: 1px solid blueviolet;
+}
+
+#menu{
+    background: yellow;
+    height: 70px;
+    padding: 7px 0px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+}
+
+#Introduction{
+    background: linear-gradient(white,lightgreen);
+    padding: 0px 30px 0px 30px;
+    margin: 20px 0px;
+}
+#Introduction h3{
+    font-size: 45px;
+    color: green;
+   
+    
+}
+#Introduction p{
+    font-size: 20px;
+    color:blueviolet;
+    text-align: justify;
+    position: relative;
+    bottom:30px;
+    font-weight: bolder;  
+}
+
+.sidebar{
+    height:500px;
+    width: 450px;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 10px 30px ;
+}
+
+.sidebar h3{
+    color:Purple;
+    font-size: 30px;
+}
+
+#leftsidebar{
+    float: left;
+}
+#rightsidebar{
+    float: right;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: blue;
+    transition: font-size 2s step-end;
+    
+}
+
+.sidebar ul li a:hover,.sidebar ul li a.active{
+    text-decoration: none;
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#leftsidebar ul li{
+    padding: 6px 0px 10px 10px;
+}
+
+.sidebar ul li{
+    padding-top: 8px;
+}
+
+#rightsidebar ul li{
+    padding-bottom: 6px;
+    padding: 20px 0px 20px 70px;
+}
+
+#rightsidebar ul li:first-child{
+    padding-top: 0px;
+}
+
+
+
